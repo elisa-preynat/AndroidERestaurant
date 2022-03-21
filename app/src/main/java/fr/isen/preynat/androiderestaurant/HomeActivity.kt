@@ -4,23 +4,53 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
+import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
 import fr.isen.preynat.androiderestaurant.databinding.ActivityHomeBinding
 
-class HomeActivity() : AppCompatActivity(), Parcelable {
+class HomeActivity() : AppCompatActivity() {
+
+    private lateinit var binding: ActivityHomeBinding
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding = ActivityHomeBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.entrees.setOnClickListener{
+            goToCategory(getString(R.string.entrees))
+        }
+        binding.plats.setOnClickListener{
+            goToCategory(getString(R.string.plats))
+        }
+        binding.desserts.setOnClickListener{
+            goToCategory(getString(R.string.desserts))
+        }
+
+
+
+    }
+
+    private fun goToCategory(category: String){
+        val intent = Intent(this, CategoryActivity::class.java)
+        intent.putExtra("category", category)
+        startActivity(intent)
+    }
+/*, Parcelable {
     constructor(parcel: Parcel) : this() {
     }
     
-    private lateinit var binding: ActivityHomeBinding
+    private lateinit var binding: ActivityHomeBinding //Etape 1 : déclaration
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomeBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
+        binding = ActivityHomeBinding.inflate(layoutInflater) //Etape 2
+        val view = binding.root //setContentView(binding.root)
+        setContentView(view) //setContentView(R.layout.activity_home) -- Etape 3
+        //val text = findViewById<TextView>(R.id.homeStarters)
         
         binding.entrees.setOnClickListener{
-            val intent = Intent(this, Entrees::class.java)
+            val intent = Intent(this, CategoryActivity::class.java)
             startActivity(intent)
             
         }
@@ -86,6 +116,6 @@ class HomeActivity() : AppCompatActivity(), Parcelable {
             return arrayOfNulls(size)
         }
     }
-
+*/
 }
 
