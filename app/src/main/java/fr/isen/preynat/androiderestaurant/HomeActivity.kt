@@ -1,17 +1,44 @@
 package fr.isen.preynat.androiderestaurant
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
-import android.widget.Button
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import fr.isen.preynat.androiderestaurant.databinding.ActivityHomeBinding
 
 class HomeActivity() : AppCompatActivity(), Parcelable {
     constructor(parcel: Parcel) : this() {
     }
-
+    
+    private lateinit var binding: ActivityHomeBinding
+    
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityHomeBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+        
+        binding.entrees.setOnClickListener{
+            val intent = Intent(this, Entrees::class.java)
+            startActivity(intent)
+            
+        }
+
+        binding.plats.setOnClickListener{
+            val intent = Intent(this, Plats::class.java)
+            startActivity(intent)
+
+        }
+
+        binding.desserts.setOnClickListener{
+            val intent = Intent(this, Desserts::class.java)
+            startActivity(intent)
+
+        }
+    }
+
+    /*override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         //Toast Entrées
@@ -40,7 +67,7 @@ class HomeActivity() : AppCompatActivity(), Parcelable {
                         "Vous avez cliqué sur 'Desserts'",
                         Toast.LENGTH_SHORT).show()
                 }
-        }
+        }*/
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
 

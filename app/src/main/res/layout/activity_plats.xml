@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Entrees">
+    tools:context=".Plats">
 
     <TextView
-        android:id="@+id/entreeMenu"
+        android:id="@+id/platMenu"
         android:layout_width="0dp"
         android:layout_height="54dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/berkshire_swash"
-        android:text="@string/entr_es"
+        android:text="@string/plats"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#3F51B5"

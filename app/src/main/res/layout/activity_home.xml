@@ -7,7 +7,7 @@
     tools:context=".HomeActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/bienvenueChez"
         android:layout_width="0dp"
         android:layout_height="51dp"
         android:layout_marginTop="28dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/zaza"
         android:layout_width="0dp"
         android:layout_height="66dp"
         android:fontFamily="cursive"
@@ -33,10 +33,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/bienvenueChez" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageCuisto"
         android:layout_width="0dp"
         android:layout_height="261dp"
         android:contentDescription="@string/todo"
@@ -44,7 +44,7 @@
         app:layout_constraintBottom_toTopOf="@+id/entrees"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/zaza"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/zaza" />
 
     <Button
         android:id="@+id/plats"

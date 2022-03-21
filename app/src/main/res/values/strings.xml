@@ -6,4 +6,7 @@
     <string name="entrees">Entrées</string>
     <string name="plats">Plats</string>
     <string name="desserts">Desserts</string>
+    <string name="plats">Plats</string>
+    <string name="desserts">Desserts</string>
+    <string name="entr_es">Entrées</string>
 </resources>
