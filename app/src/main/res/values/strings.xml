@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidERestaurant</string>
+    <string name="bienvenue_chez">Bienvenue chez</string>
+    <string name="zaza">Zaza</string>
+    <string name="todo">TODO</string>
+    <string name="entrees">Entrées</string>
+    <string name="plats">Plats</string>
+    <string name="desserts">Desserts</string>
+</resources>
