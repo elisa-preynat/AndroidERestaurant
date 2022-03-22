@@ -2,9 +2,7 @@ package fr.isen.preynat.androiderestaurant
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Parcel
-import android.os.Parcelable
-import android.os.PersistableBundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import fr.isen.preynat.androiderestaurant.databinding.ActivityHomeBinding
 
@@ -29,6 +27,12 @@ class HomeActivity() : AppCompatActivity() {
 
 
 
+    }
+
+    override fun onDestroy(){
+        super.onDestroy()
+
+        Log.d("HomeActivity","Mon activité est détruite")
     }
 
     private fun goToCategory(category: String){
