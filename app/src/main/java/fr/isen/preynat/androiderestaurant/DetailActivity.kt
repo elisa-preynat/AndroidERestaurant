@@ -18,11 +18,14 @@ class DetailActivity : AppCompatActivity() {
 
         val item = intent.getSerializableExtra(CategoryActivity.ITEM_KEY) as Item
 
-         binding.detailTitle.text = item.name_fr
+        binding.detailTitle.text = item.name_fr
+        binding.listeIngredients.text = item.ingredients.joinToString { it.name_fr }
 
         val carouselAdapter = CarouselAdapter(this, item.images)
 
         binding.detailSlider.adapter = carouselAdapter
+
+
 
 
     }

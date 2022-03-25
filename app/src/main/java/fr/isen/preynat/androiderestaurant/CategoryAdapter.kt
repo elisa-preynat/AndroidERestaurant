@@ -39,6 +39,7 @@ class CategoryAdapter(val data: ArrayList<Item>, val clickListener: (Item) -> Un
         holder.itemView.setOnClickListener { clickListener(item) }
 
 
+
     }
 
     override fun getItemCount(): Int {
