@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_category.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_categoryactivity.xml" value="0.25380304243394713" />
+        <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_data_result.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_desserts.xml" value="0.2265625" />
+        <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_detail.xml" value="0.21145833333333333" />
         <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_entrees.xml" value="0.2694746376811594" />
+        <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_item.xml" value="0.21145833333333333" />
         <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_plats.xml" value="0.2265625" />
         <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/detail_activity.xml" value="0.2" />
+        <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/fragment_picture.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/elisa.preynat/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/item.xml" value="0.536" />
       </map>
     </option>
