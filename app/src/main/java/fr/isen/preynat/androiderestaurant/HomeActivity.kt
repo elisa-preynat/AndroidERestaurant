@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import fr.isen.preynat.androiderestaurant.BLE.BleScanActivity
 import fr.isen.preynat.androiderestaurant.databinding.ActivityHomeBinding
 
 class HomeActivity() : AppCompatActivity() {
@@ -23,6 +24,11 @@ class HomeActivity() : AppCompatActivity() {
         }
         binding.desserts.setOnClickListener{
             goToCategory(getString(R.string.desserts))
+        }
+        binding.boutonBLE.setOnClickListener{
+            val intent = Intent(this, BleScanActivity::class.java)
+            startActivity(intent)
+
         }
 
 

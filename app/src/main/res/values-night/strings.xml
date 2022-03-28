@@ -9,6 +9,7 @@
     <string name="desserts">Desserts</string>
     <string name="entrees_menu">Entrees</string>
     <string name="category">Category</string>
+    <string name="scan_ble">SCAN BLE</string>
 
     <string-array name="plats">
         <item>Tartiflette</item>
