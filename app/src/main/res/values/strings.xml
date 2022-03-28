@@ -10,6 +10,11 @@
     <string name="category">Category</string>
     <string name="detail">detail</string>
 
+    <string name="ble_scan_play">Lancer le scan BLE</string>
+    <string name="ble_scan_pause">Scan BLE en cours _</string>
+    <string name="ble_scan_device_error">BLE non disponible sur cet appareil</string>
+
+
     <string-array name="plats">
         <item>Tartiflette</item>
         <item>Boeuf bourguignon</item>
@@ -18,4 +23,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="scan_ble">SCAN BLE</string>
+    <string name="puissance">Puissance</string>
+    <string name="p">P</string>
 </resources>
