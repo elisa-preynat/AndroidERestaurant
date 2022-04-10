@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidERestaurant</string>
+    <string name="app_name">ElisaAndroidERestaurant</string>
     <string name="bienvenue_chez">Bienvenue chez</string>
     <string name="zaza">Zaza</string>
     <string name="todo">TODO</string>
@@ -26,7 +26,7 @@
     <string name="puissance">Puissance</string>
     <string name="p">P</string>
     <string name="ble_device_disconnected">Statut : Déconnecté</string>
-    <string name="ble_device_connected">Statut : déconnecté</string>
+    <string name="ble_device_connected">Statut : Connecté</string>
     <string name="ble_device_characteristic_read" />
     <string name="ble_device_characteristic_write" />
 </resources>
