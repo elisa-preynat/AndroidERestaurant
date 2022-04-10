@@ -22,8 +22,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidERestaurant"
         android:usesCleartextTraffic="true">
+
         <activity
-            android:name=".BLEScanActivity"
+            android:name=".ble.BleDeviceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ble.BLEScanActivity"
             android:exported="false" />
 
         <activity

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import fr.isen.preynat.androiderestaurant.ble.BLEScanActivity
 import fr.isen.preynat.androiderestaurant.databinding.ActivityHomeBinding
 
 class HomeActivity() : AppCompatActivity() {
@@ -44,6 +45,8 @@ class HomeActivity() : AppCompatActivity() {
         intent.putExtra("category", category)
         startActivity(intent)
     }
+
+
 
 }
 
